@@ -4,6 +4,7 @@ import { ProjectsComponent } from './views/projects/projects.component';
 import { ContactComponent } from './views/contact/contact.component';
 
 export const routes: Routes = [
+  { path: '', redirectTo: '/about', pathMatch: 'full' },
   { path: 'about', component: AboutComponent, data: { animation: 'AboutPage' } },
   { path: 'projects', component: ProjectsComponent, data: { animation: 'ProjectsPage' } },
   { path: 'contact', component: ContactComponent, data: { animation: 'ContactPage' } },

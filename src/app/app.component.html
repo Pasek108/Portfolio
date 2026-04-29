@@ -1,5 +1,5 @@
 <header id="header" class="border-[#717171 relative z-50 flex h-20 w-full justify-center border-b bg-no-repeat px-8 py-4 max-sm:p-4" style="background: radial-gradient(circle at 0, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.5) 100%) #212529">
-  <div class="flex items-center justify-between w-full max-w-screen-xl gap-16">
+  <div class="flex w-full max-w-screen-xl items-center justify-between gap-16">
     <a routerLink="" class="-mt-[5px] flex flex-col">
       <div class="text-3xl font-bold text-[#ff5722]">Artur Pas</div>
       <div class="-mt-1 text-sm">Web developer</div>
@@ -7,9 +7,9 @@
 
     <div class="sm:hidden" (click)="toggleMenu()">
       @if (menu_hidden) {
-        <i class="text-4xl fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars text-4xl"></i>
       } @else {
-        <i class="text-4xl fa-solid fa-xmark"></i>
+        <i class="fa-solid fa-xmark text-4xl"></i>
       }
     </div>
 

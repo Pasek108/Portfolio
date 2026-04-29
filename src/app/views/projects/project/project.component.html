@@ -3,16 +3,16 @@
     <app-image-carousel [images]="project.images" class="w-full"></app-image-carousel>
   </div>
 
-  <div class="flex flex-col justify-center flex-grow w-2/5 gap-4 max-lg:w-full">
+  <div class="flex w-2/5 flex-grow flex-col justify-center gap-4 max-lg:w-full">
     <div class="">
-      <h2 class="mb-1 text-4xl font-bold break-all max-sm:text-3xl">{{ project.name }}</h2>
+      <h2 class="mb-1 break-all text-4xl font-bold max-sm:text-3xl">{{ project.name }}</h2>
       <div class=""><span class="font-bold">Group:</span> {{ project.group }}</div>
     </div>
 
     <div class="mb-2">
-      <div class="flex flex-row flex-wrap gap-2 mb-5 text-xs">
+      <div class="mb-5 flex flex-row flex-wrap gap-2 text-xs">
         @for (skill of project.skills; track $index) {
-          <div class="flex items-center justify-center p-1 px-3 font-bold uppercase rounded-md bg-slate-600 text-slate-100">
+          <div class="flex items-center justify-center rounded-md bg-slate-600 p-1 px-3 font-bold uppercase text-slate-100">
             {{ skill }}
           </div>
         }
@@ -23,9 +23,9 @@
 
     <div class="flex gap-2">
       @if (project.live_version.length > 0) {
-        <a href="{{ project.live_version }}" target="_blank" class="flex items-center justify-center gap-2 p-2 px-4 font-bold text-white bg-blue-800 border border-black rounded-lg cursor-pointer hover:bg-blue-900"><i class="fa-solid fa-up-right-from-square"></i> Live version</a>
+        <a href="{{ project.live_version }}" target="_blank" class="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-black bg-blue-800 p-2 px-4 font-bold text-white hover:bg-blue-900"><i class="fa-solid fa-up-right-from-square"></i> Live version</a>
       }
-      <a href="{{ project.github_repo }}" target="_blank" class="flex items-center justify-center gap-2 p-2 px-4 font-bold text-black bg-white border border-black rounded-lg cursor-pointer hover:bg-gray-200"><i class="-my-1 text-xl fa-brands fa-github"></i> GitHub</a>
+      <a href="{{ project.github_repo }}" target="_blank" class="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-black bg-white p-2 px-4 font-bold text-black hover:bg-gray-200"><i class="fa-brands fa-github -my-1 text-xl"></i> GitHub</a>
     </div>
   </div>
 </div>

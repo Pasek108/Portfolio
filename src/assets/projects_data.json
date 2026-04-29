@@ -36,8 +36,8 @@
     "Unity",
     "Laravel",
     "jQuery",
-    "React.js",
-    "Vue.js",
+    "React",
+    "Vue",
     "Angular",
     "Node.js",
     "Express.js",
@@ -53,9 +53,146 @@
     "SASS",
     "SPARQL",
     "SocketIO",
-    "Java Swing"
+    "Java Swing",
+    "Vite",
+    "PWA"
   ],
   "projects": [
+    {
+      "name": "TuringMachineSimulator",
+      "images": [
+        "images/TuringMachineSimulator/simulator.png",
+        "images/TuringMachineSimulator/code_editor.png",
+        "images/TuringMachineSimulator/breakpoints.png",
+        "images/TuringMachineSimulator/transpilation.png",
+        "images/TuringMachineSimulator/example_programs.png",
+        "images/TuringMachineSimulator/saved_programs.png"
+      ],
+      "description": "A fully functional IDE for a deterministic multi-tape Turing Machine simulator with dynamic syntax parsing and interactive graph visualization.",
+      "live_version": "https://pasek108.github.io/TuringMachineSimulator/",
+      "github_repo": "https://github.com/Pasek108/TuringMachineSimulator",
+      "skills": [29, 3, 47, 2, 1, 0, 48],
+      "group": 3,
+      "hidden": false
+    },
+    {
+      "name": "ConnectionGames",
+      "images": [
+        "images/ConnectionGames/game_select_menu.png",
+        "images/ConnectionGames/level_select_menu.png",
+        "images/ConnectionGames/bridges_game_mode.png",
+        "images/ConnectionGames/squares_game_mode.png",
+        "images/ConnectionGames/pipes_game_mode.png"
+      ],
+      "description": "A suite of logic puzzle games built with Vue 3, focused on recreating correct connections between objects on a board.",
+      "live_version": "https://pasek108.github.io/ConnectionGames/",
+      "github_repo": "https://github.com/Pasek108/ConnectionGames",
+      "skills": [30, 3, 47, 2, 1, 0],
+      "group": 0,
+      "hidden": false
+    },
+    {
+      "name": "MatchstickEquations",
+      "images": [
+        "images/UR-MatchstickEquations/wokwi.png",
+        "images/UR-MatchstickEquations/console.png",
+        "images/UR-MatchstickEquations/circuit.png"
+      ],
+      "description": "A matchstick equation puzzle game featuring two versions: a Terminal interface and an Arduino Yún implementation using a MAX7219 32x8 LED Dot Matrix",
+      "live_version": "",
+      "github_repo": "https://github.com/Pasek108/MatchstickEquations",
+      "skills": [40, 6, 8, 2, 10],
+      "group": 3,
+      "hidden": false
+    },
+    {
+      "name": "Rock-Paper-Scissors",
+      "images": [
+        "images/TOP-Rock-Paper-Scissors/frog_fight.png"
+      ],
+      "description": "Standard \"Rock, paper scissors\" game, featuring a visualization of frogs fighting in an arena.",
+      "live_version": "https://pasek108.github.io/Rock-Paper-Scissors/",
+      "github_repo": "https://github.com/Pasek108/Rock-Paper-Scissors",
+      "skills": [2, 1, 0],
+      "group": 1,
+      "hidden": false
+    },
+    {
+      "name": "BeFunge93Interpreter",
+      "images": [
+        "images/BeFunge93Interpreter/nyan_cat.png",
+        "images/BeFunge93Interpreter/program_running.png"
+      ],
+      "description": " A web-based tool for writing, executing, and debugging code written in the Befunge-93 esoteric language, with Nyan cat pixel animations.",
+      "live_version": "https://pasek108.github.io/BeFunge93Interpreter/",
+      "github_repo": "https://github.com/Pasek108/BeFunge93Interpreter",
+      "skills": [2, 41, 0, 1],
+      "group": 0,
+      "hidden": false
+    },
+    
+    
+    {
+      "name": "TicTacToe",
+      "images": [
+        "images/TicTacToe/main-menu.png",
+        "images/TicTacToe/multiplayer-lobby.png",
+        "images/TicTacToe/win-movable.png",
+        "images/TicTacToe/movable.png",
+        "images/TicTacToe/one-mark.png"
+      ],
+      "description": "A web-based Tic-Tac-Toe application featuring different game rules, local play, and real-time multiplayer functionality.",
+      "live_version": "https://tic-tac-toe-alqu.onrender.com/",
+      "github_repo": "https://github.com/Pasek108/TicTacToe",
+      "skills": [2, 4, 42, 45, 34, 1, 0],
+      "group": 0,
+      "hidden": false
+    },
+    {
+      "name": "GoblinSlayer",
+      "images": [
+        "images/GoblinSlayer/main-menu.png",
+        "images/GoblinSlayer/achievements.png",
+        "images/GoblinSlayer/game.png"
+      ],
+      "description": "A JavaScript arcade game where the player must survive against endless waves of goblins in a single attempt.",
+      "live_version": "https://pasek108.github.io/GoblinSlayer/",
+      "github_repo": "https://github.com/Pasek108/GoblinSlayer",
+      "skills": [2, 42, 0, 1],
+      "group": 0,
+      "hidden": false
+    },
+    
+    {
+      "name": "DeerKiller",
+      "images": [
+        "images/DeerKiller/game-hit.png",
+        "images/DeerKiller/main-menu.png",
+        "images/DeerKiller/top-score.png",
+        "images/DeerKiller/game.png",
+        "images/DeerKiller/game-over.png"
+      ],
+      "description": "A fast-paced arcade racing game. The player must survive for as long as possible by weaving through traffic and hunting deer to achieve high scores.",
+      "live_version": "https://pasek108.github.io/DeerKiller",
+      "github_repo": "https://github.com/Pasek108/DeerKiller",
+      "skills": [2, 1, 0],
+      "group": 0,
+      "hidden": false
+    },
+    {
+      "name": "UR-LoldleSolver",
+      "images": [
+        "images/UR-LoldleSolver/generator.png",
+        "images/UR-LoldleSolver/fluent-editor.png"
+      ],
+      "description": "Solving Loldle game using knowledge base and generated SPARQL queries in Fluent Editor.",
+      "live_version": "",
+      "github_repo": "https://github.com/Pasek108/UR-LoldleSolver",
+      "skills": [44, 2, 1, 0],
+      "group": 3,
+      "hidden": false
+    },
+    
     {
       "name": "Resume",
       "images": [
@@ -74,80 +211,38 @@
       "hidden": false
     },
     {
-      "name": "FM-WhereInTheWorld",
+      "name": "PMA-BetterDesigner",
       "images": [
-        "images/FM-WhereInTheWorld/countries-overview.png",
-        "images/FM-WhereInTheWorld/country-details.png",
-        "images/FM-WhereInTheWorld/filter.png",
-        "images/FM-WhereInTheWorld/game-select.png",
-        "images/FM-WhereInTheWorld/wrong-answer.png",
-        "images/FM-WhereInTheWorld/game.png"
+        "images/PMA-BetterDesigner/designer.png"
       ],
-      "description": "My solution to the Frontend Mentor \"REST Countries API with color theme switcher\" challenge.",
-      "live_version": "https://pasek108.github.io/FM-WhereInTheWorld/",
-      "github_repo": "https://github.com/Pasek108/FM-WhereInTheWorld",
-      "skills": [2, 41, 0, 1],
-      "group": 2,
-      "hidden": false
-    },
-    {
-      "name": "TicTacToe",
-      "images": [
-        "images/TicTacToe/main-menu.png",
-        "images/TicTacToe/multiplayer-lobby.png",
-        "images/TicTacToe/win-movable.png",
-        "images/TicTacToe/movable.png",
-        "images/TicTacToe/one-mark.png"
-      ],
-      "description": "Three tic-tac-toe versions in two modes. Playable vs vs AI, vs player locally and multiplayer in real-time.",
-      "live_version": "https://tic-tac-toe-alqu.onrender.com/",
-      "github_repo": "https://github.com/Pasek108/TicTacToe",
-      "skills": [2, 4, 42, 45, 34, 1, 0],
-      "group": 0,
-      "hidden": false
-    },
-    {
-      "name": "GoblinSlayer",
-      "images": [
-        "images/GoblinSlayer/main-menu.png",
-        "images/GoblinSlayer/achievements.png",
-        "images/GoblinSlayer/game.png",
-        "images/GoblinSlayer/game-over.png",
-        "images/GoblinSlayer/credits.png",
-        "images/GoblinSlayer/contact.png"
-      ],
-      "description": "Arcade game where player have to survive increasing waves of goblins in one attempt.",
-      "live_version": "https://pasek108.github.io/GoblinSlayer/",
-      "github_repo": "https://github.com/Pasek108/GoblinSlayer",
-      "skills": [2, 42, 0, 1],
-      "group": 0,
-      "hidden": false
-    },
-    {
-      "name": "UR-MatchstickEquations",
-      "images": [
-        "images/UR-MatchstickEquations/wokwi.png",
-        "images/UR-MatchstickEquations/console.png",
-        "images/UR-MatchstickEquations/circuit.png"
-      ],
-      "description": "Project from my studies at University of Rzeszów (UR). Matchstick puzzle equations on Arduino and console.",
+      "description": "Fixes and improvements for the phpMyAdmin designer to enhance its usability.",
       "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-MatchstickEquations",
-      "skills": [40, 6, 8, 2, 10],
-      "group": 3,
+      "github_repo": "https://github.com/Pasek108/PMA-BetterDesigner",
+      "skills": [2, 1, 28, 0],
+      "group": 4,
       "hidden": false
     },
     {
-      "name": "BeFunge93Interpreter",
+      "name": "TowerOfHanoi",
       "images": [
-        "images/BeFunge93Interpreter/nyan_cat.png",
-        "images/BeFunge93Interpreter/program_running.png",
-        "images/BeFunge93Interpreter/contact.png"
+        "images/TowerOfHanoi/towers.png"
       ],
-      "description": "BeFunge 93 interpreter with grid visualisation, debugging tools and nyan cats animations.",
-      "live_version": "https://pasek108.github.io/BeFunge93Interpreter/",
-      "github_repo": "https://github.com/Pasek108/BeFunge93Interpreter",
-      "skills": [2, 41, 0, 1],
+      "description": "Visualization of Tower of Hanoi algorithm.",
+      "live_version": "",
+      "github_repo": "https://github.com/Pasek108/TowerOfHanoi",
+      "skills": [46, 5],
+      "group": 0,
+      "hidden": false
+    },
+    {
+      "name": "Weather",
+      "images": [
+        "images/Weather/weather.png"
+      ],
+      "description": "Simple weather weather app with Pirate Weather API and Geonames API.",
+      "live_version": "https://pasek108.github.io/Weather/",
+      "github_repo": "https://github.com/Pasek108/Weather",
+      "skills": [29, 2, 1, 0],
       "group": 0,
       "hidden": false
     },
@@ -164,38 +259,22 @@
       "group": 4,
       "hidden": false
     },
+    
     {
-      "name": "ConnectGame",
+      "name": "FM-WhereInTheWorld",
       "images": [
-        "images/ConnectGame/main-menu.png",
-        "images/ConnectGame/pipes.png",
-        "images/ConnectGame/bridges.png",
-        "images/ConnectGame/sliders.png",
-        "images/ConnectGame/squares.png",
-        "images/ConnectGame/editor.png"
+        "images/FM-WhereInTheWorld/countries-overview.png",
+        "images/FM-WhereInTheWorld/country-details.png",
+        "images/FM-WhereInTheWorld/filter.png",
+        "images/FM-WhereInTheWorld/game-select.png",
+        "images/FM-WhereInTheWorld/wrong-answer.png",
+        "images/FM-WhereInTheWorld/game.png"
       ],
-      "description": "A small set of connection-based puzzle games about recreating the correct connections between objects.",
-      "live_version": "https://pasek108.github.io/ConnectGame/",
-      "github_repo": "https://github.com/Pasek108/ConnectGame",
-      "skills": [2, 41, 1, 0],
-      "group": 0,
-      "hidden": false
-    },
-    {
-      "name": "DeerKiller",
-      "images": [
-        "images/DeerKiller/game-hit.png",
-        "images/DeerKiller/main-menu.png",
-        "images/DeerKiller/top-score.png",
-        "images/DeerKiller/game.png",
-        "images/DeerKiller/game-over.png",
-        "images/DeerKiller/credits.png"
-      ],
-      "description": "Arcade racing game with the goal to get as many points as possible in one attempt by killing deers and avoiding cars.",
-      "live_version": "",
-      "github_repo": "https://github.com/Pasek108/DeerKiller",
-      "skills": [2, 1, 0, 9, 13],
-      "group": 0,
+      "description": "My solution to the Frontend Mentor \"REST Countries API with color theme switcher\" challenge.",
+      "live_version": "https://pasek108.github.io/FM-WhereInTheWorld/",
+      "github_repo": "https://github.com/Pasek108/FM-WhereInTheWorld",
+      "skills": [2, 41, 0, 1],
+      "group": 2,
       "hidden": false
     },
     {
@@ -242,55 +321,7 @@
       "group": 2,
       "hidden": false
     },
-    {
-      "name": "UR-LoldleSolver",
-      "images": [
-        "images/UR-LoldleSolver/generator.png",
-        "images/UR-LoldleSolver/fluent-editor.png"
-      ],
-      "description": "Solving Loldle game using knowledge base and generated SPARQL queries in Fluent Editor.",
-      "live_version": "",
-      "github_repo": "https://github.com/Pasek108/UR-LoldleSolver",
-      "skills": [44, 2, 1, 0],
-      "group": 3,
-      "hidden": false
-    },
-    {
-      "name": "Weather",
-      "images": [
-        "images/Weather/weather.png"
-      ],
-      "description": "Simple weather weather app with Pirate Weather API and Geonames API.",
-      "live_version": "https://pasek108.github.io/Weather/",
-      "github_repo": "https://github.com/Pasek108/Weather",
-      "skills": [29, 2, 1, 0],
-      "group": 0,
-      "hidden": false
-    },
-    {
-      "name": "TOP-Rock-Paper-Scissors",
-      "images": [
-        "images/TOP-Rock-Paper-Scissors/frog_fight.png"
-      ],
-      "description": "My solution for The Odin Project \"Rock Paper Scissors\" project.",
-      "live_version": "https://pasek108.github.io/TOP-Rock-Paper-Scissors/",
-      "github_repo": "https://github.com/Pasek108/TOP-Rock-Paper-Scissors",
-      "skills": [2, 1, 0],
-      "group": 1,
-      "hidden": false
-    },
-    {
-      "name": "PMA-BetterDesigner",
-      "images": [
-        "images/PMA-BetterDesigner/designer.png"
-      ],
-      "description": "Fixes and improvements for the phpMyAdmin designer to enhance its usability.",
-      "live_version": "",
-      "github_repo": "https://github.com/Pasek108/PMA-BetterDesigner",
-      "skills": [2, 1, 28, 0],
-      "group": 4,
-      "hidden": false
-    },
+    
     {
       "name": "FM-LaunchCountdownTimer",
       "images": [
@@ -407,18 +438,7 @@
       "group": 2,
       "hidden": false
     },
-    {
-      "name": "TowerOfHanoi",
-      "images": [
-        "images/TowerOfHanoi/towers.png"
-      ],
-      "description": "Visualization of Tower of Hanoi algorithm.",
-      "live_version": "",
-      "github_repo": "https://github.com/Pasek108/TowerOfHanoi",
-      "skills": [46, 5],
-      "group": 0,
-      "hidden": false
-    },
+    
     {
       "name": "TOP-Landing-Page",
       "images": [
