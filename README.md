@@ -1,15 +1,17 @@
-<h1 align="center">Resume - Readme</h1>
+<h1 align="center">Portfolio</h1>
 <p align="center">
   <strong>
     My personal portfolio website written in Angular
   </strong>
 </p>
 
+<!--
 <div align="center">
   <img src="_for_readme/banner.png?">
 </div>
 
 <br>
+
 
 # Table of Contents
 * [Overview :sparkles:](#overview-sparkles)
@@ -22,6 +24,8 @@
   * [User interface](#user-interface)
   * [Projects data](#projects-data)
 
+
+-->
 <br>
 
 # Overview :sparkles:
@@ -39,21 +43,16 @@ Check out the [live version](https://pasek108.github.io/Resume/).
 Languages:
 - JavaScript
 - TypeScript
-- CSS
-- HTML
+- CSS 3
+- HTML 5
 
 Libraries and frameworks:
 - [Angular](https://angular.dev) 19.0.0
 - [Tailwind CSS](https://tailwindcss.comangu) 3.4.17
 - [FontAwesome](https://fontawesome.com) 6.7.2
 - [GoogleFonts](https://fonts.google.com)
-  
-Programs:
-- [VSCode](https://code.visualstudio.com)
-- [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
-- [ShareX](https://getsharex.com)
-- [GIMP](https://www.gimp.org)
 
+<!--
 ## Features
 - Router and scroll animations
 - Responsive layout for all devices
@@ -100,6 +99,7 @@ Programs:
 - [Router fade animation](https://arminzia.com/blog/angular-router-fade-animation)
 - [SVG backgrounds and patterns](https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/)
 - [Favicon emoji](https://fav-gen.com/favicon-emoji) 
+-->
 
 <br>
 
@@ -209,7 +209,7 @@ The Contact section provides various ways to get in touch with me and includes a
 
 It also lists websites where my work is showcased, allowing visitors to explore more of my projects and contributions.
 
-
+<!--
 ## Projects data
 All of the projects are contained in a single file, projects_data.json.
 
@@ -265,3 +265,4 @@ Each project entry includes:
     ... And more ...
 }
 ```
+-->
