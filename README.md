@@ -115,17 +115,6 @@ Libraries and frameworks:
 
 ---
 
-### Footer
-![footer](/_for_readme/UI/footer.png)
-The footer is a consistent part of every view, positioned at the bottom of the page.
-
-It contains:
-- A round, decorative shape and an inspiring quote to add visual appeal.
-- Contact links for easy access to my communication channels.
-- Copyright information and author details.
-
----
-
 ### Intro
 ![intro](/_for_readme/UI/intro.png)
 The Intro section is the first part of the About view, providing a quick overview of who I am.
@@ -208,6 +197,17 @@ Filtered projects are displayed in paginated views, and users can navigate throu
 The Contact section provides various ways to get in touch with me and includes a contact form for direct communication.
 
 It also lists websites where my work is showcased, allowing visitors to explore more of my projects and contributions.
+
+---
+
+### Footer
+![footer](/_for_readme/UI/footer.png)
+The footer is a consistent part of every view, positioned at the bottom of the page.
+
+It contains:
+- A round, decorative shape and an inspiring quote to add visual appeal.
+- Contact links for easy access to my communication channels.
+- Copyright information and author details.
 
 <!--
 ## Projects data
